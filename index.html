@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!-- Initial meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+     <meta name="description" content="A simple, fully responsive ecommerce template with bootstrap5 and DOM">
+     <meta name="keywords" content="panda commerce, bootstrap5, landing page, responsive bootstrap ecommerce template">
+     <meta name="author" content="Babul Akter">
+     <meta name="publisher" content="Babul Akter">
+     <meta name="copyright" content="Babul Akter">
+     <meta name="description" content="A simple, fully responsive ecommerce template with bootstrap5 and DOM">
+     <meta name="page-topic" content="Media">
+     <meta name="page-type" content="landing page">
+     <meta name="audience" content="Everyone">
+     <meta name="robots" content="index, follow">
+
+     <!-- icons -->
+     <link rel="shortcut icon" href="images/favicon.png"/>
+
+     <!-- Font awesome -->
+     <script src="https://kit.fontawesome.com/999412a9e6.js" crossorigin="anonymous"></script>
+
+     <!-- Bootstrap css -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <!-- Main css and media query -->
+     <link rel="stylesheet" href="./css/style.css">
+
+     <title>Panda Commerce: Buy the best products</title>
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <nav class="navbar navbar-expand-lg py-4">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="logo" class="img-fluid" />
+        </a>
+       <!-- <form class=" d-none d-lg-flex ms-auto panda-search-bar rounded-pill px-4 py-2">
+          <input class="fst-italic flex-grow-1 border-0 bg-transparent" type="text" placeholder="Search" name="search" />
+          <button class="border-0 bg-transparent" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="panda-nav navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+       <!-- Banner starts -->
+       <section id="banner-area" class="py-5">
+        <div class="container">
+          <!-- Carousel -->
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide panda-bg-info p-2 p-lg-4 rounded-5"
+            data-bs-ride="carousel"
+          >
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators panda-carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <!-- Carousel Inner -->
+            <div class="carousel-inner">
+              <!-- Carousel Item -->
+              <div class="carousel-item active p-3">
+                <div class="row gy-5 align-items-center">
+                  <!-- Text -->
+                  <div class="col-lg-7 pb-5 pb-lg-0">
+                    <h2 class="h1 fw-bolder">Mi LED TV 4A PRO 32</h2>
+                    <p class="lh-base">
+                      Our ecommerce banner making tool will help you create impressive product visuals. Forget about boring product presentation images with just an image and text.
+                    </p>
+                    <h3 class="fw-bold mt-4 mb-3">$1289</h3>
+                    <button onclick="clickHandler()" class="btn btn-dark px-4 py-2">
+                      Buy Now <i class="fas fa-arrow-right ms-2"></i>
+                    </button>
+                  </div>
+                  <!-- Image -->
+                  <div class="col-lg-5 order-first order-lg-last">
+                    <img src="images/banner-images/tv.png" alt="tv" />
+                  </div>
+                </div>
+              </div>
+              <!-- Carousel Item -->
+              <div class="carousel-item p-3">
+                <div class="row gy-5 align-items-center">
+                  <!-- Text -->
+                  <div class="col-lg-7 pb-5 pb-lg-0">
+                    <h2 class="h1 fw-bolder">Cool Dude Headphone</h2>
+                    <p class="lh-base">
+                      Our ecommerce banner making tool will help you create impressive product visuals. Forget about boring product presentation images with just an image and text.
+                    </p>
+                    <h3 class="fw-bold mt-4 mb-3">$489</h3>
+                    <button onclick="clickHandler()" class="btn btn-dark px-4 py-2">
+                      Buy Now <i class="fas fa-arrow-right ms-2"></i>
+                    </button>
+                  </div>
+                  <!-- Image -->
+                  <div class="col-lg-5 order-first order-lg-last">
+                    <img
+                      src="images/banner-images/headphone.png"
+                      alt="headphone"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Carousel Item -->
+              <div class="carousel-item p-3">
+                <div class="row align-items-center">
+                  <!-- Text -->
+                  <div class="col-lg-7 pb-5 pb-lg-0">
+                    <h2 class="h1 fw-bolder">X-Box for your living room</h2>
+                    <p class="lh-base">
+                      Our ecommerce banner making tool will help you create impressive product visuals. Forget about boring product presentation images with just an image and text.
+                    </p>
+                    <h3 class="fw-bold mt-4 mb-3">$600</h3>
+                    <button onclick="clickHandler()" class="btn btn-dark px-4 py-2">
+                      Buy Now <i class="fas fa-arrow-right ms-2"></i>
+                    </button>
+                  </div>
+                  <!-- Image -->
+                  <div class="col-lg-5 order-first order-lg-last">
+                    <img src="images/banner-images/xbox.png" alt="xbox" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       <!-- Banner ends -->
+    <!-- Header Ends -->
+
+    <!-- Main starts -->
+    <main>
+       <!-- product categories start -->
+       <section id="categories-area" class="py-5">
+        <div class="container">
+          <!-- Section Intro -->
+          <div class="section-intro mb-4">
+            <h2 class="h2 fw-bold">Categories</h2>
+          </div>
+          <!-- Categories -->
+          <div class="row g-4 categories">
+            <!-- Category -->
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="
+                  category
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  panda-bg-warning-gradient
+                  p-3
+                  rounded-4
+                "
+              >
+                <!-- Category Name -->
+                <h2 class="category-name h2 fw-bold text-white">Watch</h2>
+                <!-- Category Image -->
+                <div class="category-image">
+                  <img src="images/categories/watch.png" alt="watch" />
+                </div>
+              </div>
+            </div>
+            <!-- Category -->
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="
+                  category
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  panda-bg-pink-gradient
+                  p-3
+                  rounded-4
+                "
+              >
+                <!-- Category Name -->
+                <h2 class="category-name h2 fw-bold text-white">Bag</h2>
+                <!-- Category Image -->
+                <div class="category-image">
+                  <img src="images/categories/bag.png" alt="bag" />
+                </div>
+              </div>
+            </div>
+            <!-- Category -->
+            <div class="col-lg-4 col-md-12">
+              <div
+                class="
+                  category
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  panda-bg-primary-gradient
+                  p-3
+                  rounded-4
+                "
+              >
+                <!-- Category Name -->
+                <h2 class="category-name h2 fw-bold text-white">Shoes</h2>
+                <!-- Category Image -->
+                <div class="category-image">
+                  <img src="images/categories/shoes.png" alt="shoes" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       <!-- product categories end -->
+
+       <!-- Shoes Start -->
+      <section id="shoes-area" class="panda-bg-light py-5">
+        <div class="container">
+          <!-- Section Intro -->
+          <div class="section-intro mb-4">
+            <h2 class="h2 fw-bold">Shoes</h2>
+          </div>
+          <!-- Shoes -->
+          <div class="row shoes g-4">
+            <!-- Shoe Card -->
+            <div class="col-md-6 col-lg-4">
+              <div class="shoe card h-100 border-0 rounded-5 overflow-hidden">
+                <!-- Card Body -->
+                <div class="card-body">
+                  <!-- Show Image -->
+                  <div class="show-image">
+                    <img src="images/shoes/shoe-1.png" alt="shoe" id="shoe1"/>
+                  </div>
+                  <!-- Show Info -->
+                  <div class="show-info text-center">
+                    <h3 class="h3 fw-bold my-3">Reebok Men’s Shoes</h3>
+                    <p class="text-muted">
+                     Buy our best shoes from the real dealers and we keep it so gorgeous. Hope you will enjoy our product.
+                    </p>
+                    <h4 class="h4 fw-bold">$799</h4>
+                  </div>
+                </div>
+                <!-- Card Footer -->
+                <div class="card-footer border-0 bg-white p-0 pb-4 text-center">
+                  <button class="btn btn-dark px-4 py-2">
+                    Buy Now <i class="fas fa-arrow-right ms-2"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Shoe Card -->
+            <div class="col-md-6 col-lg-4">
+              <div class="shoe card h-100 border-0 rounded-5 overflow-hidden">
+                <!-- Card Body -->
+                <div class="card-body">
+                  <!-- Show Image -->
+                  <div class="show-image">
+                    <img src="images/shoes/shoe-2.png" alt="shoe" id="shoe2"/>
+                  </div>
+                  <!-- Show Info -->
+                  <div class="show-info text-center">
+                    <h3 class="h3 fw-bold my-3">Reebok Pump</h3>
+                    <p class="text-muted">
+                     Buy our best shoes from the real dealers and we keep it so gorgeous. Hope you will enjoy our product.
+                    </p>
+                    <h4 class="h4 fw-bold">$650</h4>
+                  </div>
+                </div>
+                <!-- Card Footer -->
+                <div class="card-footer border-0 bg-white p-0 pb-4 text-center">
+                  <button class="btn btn-dark px-4 py-2">
+                    Buy Now <i class="fas fa-arrow-right ms-2"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Shoe Card -->
+            <div class="col-md-6 col-lg-4">
+              <div class="shoe card h-100 border-0 rounded-5 overflow-hidden">
+                <!-- Card Body -->
+                <div class="card-body">
+                  <!-- Show Image -->
+                  <div class="show-image">
+                    <img src="images/shoes/shoe-3.png" alt="shoe" id="shoe3"/>
+                  </div>
+                  <!-- Show Info -->
+                  <div class="show-info text-center">
+                    <h3 class="h3 fw-bold my-3">Reebok All Terrain</h3>
+                    <p class="text-muted">
+                     Buy our best shoes from the real dealers and we keep it so gorgeous. Hope you will enjoy our product.
+                    </p>
+                    <h4 class="h4 fw-bold">$1280</h4>
+                  </div>
+                </div>
+                <!-- Card Footer -->
+                <div class="card-footer border-0 bg-white p-0 pb-4 text-center">
+                  <button class="btn btn-dark px-4 py-2">
+                    Buy Now <i class="fas fa-arrow-right ms-2"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Shoe Ends -->
+
+       <!-- Backpack  Start -->
+       <section id="backpack-area" class="panda-bg-light py-5">
+        <div class="container">
+          <!-- Section Intro -->
+          <div class="section-intro mb-4">
+            <h2 class="h2 fw-bold">Backpack</h2>
+          </div>
+          <!-- Bags -->
+          <div class="row bags g-4">
+            <!-- Bag Card -->
+            <div class="col-md-6 col-lg-4">
+              <div class="bag card h-100 border-0 rounded-5 overflow-hidden">
+                <!-- Card Body -->
+                <div class="card-body">
+                  <!-- Bag Image -->
+                  <div class="bag-image">
+                    <img src="images/bags/bag-1.png" alt="bag" />
+                  </div>
+                  <!-- Bag Info -->
+                  <div class="bag-info text-center">
+                    <h3 class="h3 fw-bold my-3">Ison Backpack</h3>
+                    <p class="text-muted">
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint.
+                    </p>
+                    <h4 class="h4 fw-bold">$299</h4>
+                  </div>
+                </div>
+                <!-- Card Footer -->
+                <div class="card-footer border-0 bg-white p-0 pb-4 text-center">
+                  <button class="btn btn-dark px-4 py-2">
+                    Buy Now <i class="fas fa-arrow-right ms-2"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Bag Card -->
+            <div class="col-md-6 col-lg-4">
+              <div class="bag card h-100 border-0 rounded-5 overflow-hidden">
+                <!-- Card Body -->
+                <div class="card-body">
+                  <!-- Bag Image -->
+                  <div class="bag-image">
+                    <img src="images/bags/bag-2.png" alt="bag" />
+                  </div>
+                  <!-- Bag Info -->
+                  <div class="bag-info text-center">
+                    <h3 class="h3 fw-bold my-3">Biaowang Backpack</h3>
+                    <p class="text-muted">
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint.
+                    </p>
+                    <h4 class="h4 fw-bold">$199</h4>
+                  </div>
+                </div>
+                <!-- Card Footer -->
+                <div class="card-footer border-0 bg-white p-0 pb-4 text-center">
+                  <button class="btn btn-dark px-4 py-2">
+                    Buy Now <i class="fas fa-arrow-right ms-2"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Bag Card -->
+            <div class="col-md-6 col-lg-4">
+              <div class="bag card h-100 border-0 rounded-5 overflow-hidden">
+                <!-- Card Body -->
+                <div class="card-body">
+                  <!-- Bag Image -->
+                  <div class="bag-image">
+                    <img src="images/bags/bag-3.png" alt="bag" />
+                  </div>
+                  <!-- Bag Info -->
+                  <div class="bag-info text-center">
+                    <h3 class="h3 fw-bold my-3">Dxyizu WS54 Smart</h3>
+                    <p class="text-muted">
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint.
+                    </p>
+                    <h4 class="h4 fw-bold">$149</h4>
+                  </div>
+                </div>
+                <!-- Card Footer -->
+                <div class="card-footer border-0 bg-white p-0 pb-4 text-center">
+                  <button class="btn btn-dark px-4 py-2">
+                    Buy Now <i class="fas fa-arrow-right ms-2"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Backpack  End -->
+
+      <!-- Newsletter Area Start -->
+      <section id="newsletter-area" class="py-5">
+        <div class="container">
+          <!-- Newsletter -->
+          <div class="newsletter panda-bg-info py-5 px-4 px-md-5 rounded-5" id='bgcolordomtest'>
+            <div class="row justify-content-center py-4 py-md-5">
+              <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
+                <h2 class="h2 fw-bold">LET'S STAY IN TOUCH</h2>
+                <p class="text-muted">Get updates on sales specials and more</p>
+                <!-- Newsletter Form -->
+                <form action="" class="newsletter-form">
+                  <div class="input-group">
+                    <input id="userinput"
+                      type="text"
+                      class="form-control"
+                      placeholder="you must type 'email' to activate the button"
+                      name="email"
+                      aria-label="Email"
+                      aria-describedby="basic-addon1"
+                      required
+                    />
+                    <button class="i btn btn-dark px-4 py-2" id="send" disabled>
+                      Send
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Newsletter Area End -->
+    </main>
+    <!-- Main ends -->
+
+     <!-- Footer starts-->
+     <footer class="py-3">
+      <div class="container">
+        <p class="text-center text-muted my-3 mb-md-0">
+          all rights reserved by panda&trade; 2022 | developed by &copy;Babul
+        </p>
+      </div>
+    </footer>
+    <!-- Footer ends -->
+
+
+    <!-- javascript-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* Global */
+*:focus {
+  outline: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.rounded-4 {
+  border-radius: 10px;
+}
+
+.rounded-5 {
+  border-radius: 20px;
+}
+
+.panda-bg-info {
+  background-color: #feeae9;
+}
+
+.panda-bg-light {
+  background-color: #f4f4f4;
+}
+
+.panda-bg-warning-gradient {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+
+.panda-bg-pink-gradient {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+
+.panda-bg-primary-gradient {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+}
+
+/* Navbar Customize */
+.panda-nav li a {
+  color: #707070;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  margin: 0 12px;
+}
+
+.panda-nav li a:hover {
+  color: #ff277c;
+}
+
+.panda-search-bar {
+  background-color: #f1f1f1;
+}
+
+.panda-search-bar input,
+.panda-search-bar button {
+  color: #3d3d3d;
+}
+
+.panda-search-bar input::placeholder,
+.panda-search-bar button {
+  color: #cccccc;
+}
+
+/* Panda Carousel Indicators */
+.panda-carousel-indicators button {
+  background: #212529 !important;
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50% !important;
+  border: 0 !important;
+}
+
+/* Categories Area */
+.category-image {
+  width: 100px;
+}
+
+/* Mobile Container */
+@media only screen and (max-width: 575px) {
+  .container {
+    padding: 0 20px !important;
+  }
+}
+
+/* Mobile Menu */
+@media only screen and (max-width: 991px) {
+  .panda-nav li a {
+    margin: 2px 0;
+  }
+}
