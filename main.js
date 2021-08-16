@@ -1,7 +1,7 @@
-//addition warning
-  setTimeout(() => {
-      alert('এখানে ডোম এর কিছু জিনিস টেস্ট করা হয়েছে, ইউ আই / ইউ এক্স এর দিকে নজর দেয়া হয়নি।  তবে সুন্দর একটি ডিজাইন দেখতে আপনার ব্রাউজার এ জাভাস্ক্রিপ্ট ডিজেবল করে পেজ টি রিফ্রেশ করুন.. ')
-  },5000) 
+setTimeout(() => {
+    alert('You might experience some weird browsing experience. take it easy, this website is just for DOM testing')
+}, 5000)
+
 
 // task 1 done , means script added. LOL.
 console.log('script add korte parchi');
@@ -13,7 +13,13 @@ for(let h2 of allH2) {
 }
 
 //task 3
-document.getElementById('backpack-area').style.backgroundColor = 'tomato';
+let backpack = document.getElementById('backpack-area');
+backpack.addEventListener('mouseenter', (event) => {
+    backpack.style.backgroundColor = 'tomato';
+    setTimeout(() => {
+        backpack.style.backgroundColor = '#fff'
+    },3000)
+})
 
 //task 4
 let allCards = document.getElementsByClassName('card');
@@ -53,21 +59,21 @@ userInput.addEventListener('keyup', (event) => {
 
        //shoe1
 document.getElementById('shoe1').addEventListener('mouseenter', (event) => {
-    event.target.setAttribute('src', './images/shoes/cshoe-1.png')
+    event.target.setAttribute('src', './images/shoes/shoe-3.png')
 })
 document.getElementById('shoe1').addEventListener('mouseleave', (event) => {
     event.target.setAttribute('src', './images/shoes/shoe-1.png')
 })
          //shoe2
 document.getElementById('shoe2').addEventListener('mouseenter', (event) => {
-    event.target.setAttribute('src', './images/shoes/cshoe-2.png')
+    event.target.setAttribute('src', './images/shoes/shoe-1.png')
 })
 document.getElementById('shoe2').addEventListener('mouseleave', (event) => {
     event.target.setAttribute('src', './images/shoes/shoe-2.png')
 })
            //shoe3
 document.getElementById('shoe3').addEventListener('mouseenter', (event) => {
-    event.target.setAttribute('src', './images/shoes/cshoe-3.png')
+    event.target.setAttribute('src', './images/shoes/shoe-1.png')
 })
 document.getElementById('shoe3').addEventListener('mouseleave', (event) => {
     event.target.setAttribute('src', './images/shoes/shoe-3.png')
